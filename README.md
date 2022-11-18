@@ -1,9 +1,9 @@
 # 05-work-day-scheduler
 
-![license](https://img.shields.io/github/license/westgards/password-generator)
+![license](https://img.shields.io/github/license/westgards/05-work-day-scheduler)
 
-![open issue](https://img.shields.io/github/issues-raw/westgards/password-generator)
-![closed issue](https://img.shields.io/github/issues-closed-raw/westgards/password-generator)
+![open issue](https://img.shields.io/github/issues-raw/westgards/05-work-day-scheduler)
+![closed issue](https://img.shields.io/github/issues-closed-raw/westgards/05-work-day-scheduler)
 
 
 ## Description
