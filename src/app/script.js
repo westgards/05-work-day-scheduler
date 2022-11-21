@@ -16,7 +16,7 @@ var currentHour = moment().format("HH");
 
 //workday 09-17 9am-5pm
 // read from local storage
-$("#09hr .event-desc").val(localStorage.getItem("09"));
+
 
 
 // get
