@@ -20,8 +20,8 @@ Application is deployed through Github Pages, live URL [Workday Scheduler Websit
 
 ## Features
 - Dynamically updated HTML, CSS, and JavaScript powered by jQuery.
-- Responsive user interface that adapts to multiple screen sizes
-- Uses day.js library
+- Responsive user interface that adapts to multiple screen sizes.
+- Uses Unsplash Developers API for free random images based on keywords.
 
 ## Credits
 
