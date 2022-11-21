@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--  -->
+    <!-- Link to the Moment library -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <!-- Added link to the jQuery library -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"
+    ></script>
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Link to Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <!-- https://www.bitdegree.org/learn/bootstrap-col-md -->
+      <div id="9am" class="row">
+        <div class="col-md-1 hour"><span id="9">9am</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <!-- https://www.geeksforgeeks.org/html-label-tag/ -->
+        <button class="col-md-1 saveBtn" label="save-btn-9am" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="10am" class="row">
+        <div class="col-md-1 hour"><span id="10">10am</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save-btn-10am" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="11am" class="row">
+        <div class="col-md-1 hour"><span id="11">11am</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save-btn-11am" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="12pm" class="row">
+        <div class="col-md-1 hour"><span id="12">12pm</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save-btn-12pm" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="1pm" class="row">
+        <div class="col-md-1 hour"><span id="13">1pm</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save-btn-1pm" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="2pm" class="row">
+        <div class="col-md-1 hour"><span id="14">2pm</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save=btn=2pm" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="3pm" class="row">
+        <div class="col-md-1 hour"><span id="15">3pm</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save=btn-3pm" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="4pm" class="row">
+        <div class="col-md-1 hour"><span id="16">4pm</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Add Event"></textarea>
+        <button class="col-md-1 saveBtn" label="save-btn-4pm" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button>
+      </div>
+      <div id="5pm" class="row">
+        <div class="col-md-1 hour"><span id="17">5pm</span></div>
+        <textarea class="col-md-10 event-desc" placeholder="Almost done for the day, Add Last Event!"></textarea>
+        <button class="col-md-1 saveBtn" label="save-btn-5pm" 
+        class="checkmark"><i class="fa fa-check" aria-hidden="true"></i></button> 
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
