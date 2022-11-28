@@ -27,9 +27,9 @@ Application is deployed through Github Pages, live URL [Workday Scheduler Websit
 
 Tutorials:
 
-[U of MN Coding Bootcamp Link](https://github.com/coding-boot-camp)
-[Moment js Library](https://momentjs.com/)
-[Bootstrap tutorial]( https://www.bitdegree.org/learn/bootstrap-col-md)
-[Colorlib Bootstrap Jumbotrons](https://colorlib.com/wp/bootstrap-jumbotrons/)
-[Unsplash Developers API](https://unsplash.com/documentation#get-a-random-photo )
+- [U of MN Coding Bootcamp Link](https://github.com/coding-boot-camp)
+- [Moment js Library](https://momentjs.com/)
+- [Bootstrap tutorial]( https://www.bitdegree.org/learn/bootstrap-col-md)
+- [Colorlib Bootstrap Jumbotrons](https://colorlib.com/wp/bootstrap-jumbotrons/)
+- [Unsplash Developers API](https://unsplash.com/documentation#get-a-random-photo )
 
