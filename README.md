@@ -21,7 +21,7 @@ Application is deployed through Github Pages, live URL [Workday Scheduler Websit
 ## Features
 - Dynamically updated HTML, CSS, and JavaScript powered by jQuery.
 - Responsive user interface that adapts to multiple screen sizes.
-- Uses Unsplash Developers API for free random images based on keywords.
+- Uses Colorlib Bootstrap Jumbotrons styling.
 
 ## Credits
 
@@ -31,5 +31,4 @@ Tutorials:
 - [Moment js Library](https://momentjs.com/)
 - [Bootstrap tutorial]( https://www.bitdegree.org/learn/bootstrap-col-md)
 - [Colorlib Bootstrap Jumbotrons](https://colorlib.com/wp/bootstrap-jumbotrons/)
-- [Unsplash Developers API](https://unsplash.com/documentation#get-a-random-photo )
 
