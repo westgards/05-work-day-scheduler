@@ -19,14 +19,12 @@ body {
   }
   
   /* https://colorlib.com/wp/bootstrap-jumbotrons/ */
-  /* https://unsplash.com/documentation#get-a-random-photo */
   .jumbotron {
       background: 
     linear-gradient(
       rgba(0, 0, 250, 0.25), 
       rgba(125, 250, 250, 0.45)
-    ),
-    url(https://source.unsplash.com/1600x1050/?calendar);
+    );
     /* same-site: strict; */
     background-repeat: no-repeat;
     background-attachment: fixed;
